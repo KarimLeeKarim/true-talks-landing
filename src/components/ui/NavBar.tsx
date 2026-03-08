@@ -1,7 +1,7 @@
-import { useState, useEffect } from 'react';
-import { motion } from 'motion/react';
-import { clsx } from 'clsx';
-import type { Lang } from '../../i18n/translations';
+import {useEffect, useState} from 'react';
+import {motion} from 'motion/react';
+import {clsx} from 'clsx';
+import type {Lang} from '../../i18n/translations';
 
 const LANGS = ['en', 'ru', 'az'] as const;
 
@@ -37,9 +37,10 @@ export function NavBar({ brand, lang }: NavBarProps) {
         {/* Brand */}
         <span
           className={clsx(
-            'font-bold text-xl tracking-tighter transition-all duration-300',
+            'font-bold text-xl tracking-tighter transition-all duration-300 cursor-pointer',
             scrolled ? 'text-white' : 'text-white mix-blend-difference',
           )}
+          onClick={() => window.location.href = 'https://www.truetalks.me/'}
         >
           {brand}
         </span>
@@ -49,7 +50,7 @@ export function NavBar({ brand, lang }: NavBarProps) {
           {LANGS.map((l) => (
             <a
               key={l}
-              href={`/${l}`}
+              href={`/${l !== 'en' ? l : ''}`}
               className={clsx(
                 'text-xs font-bold tracking-wider px-2.5 py-1.5 rounded-full transition-all duration-200',
                 l === lang

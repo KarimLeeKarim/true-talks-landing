@@ -10,10 +10,10 @@ export const translations = {
     hero: {
       line1: 'YOU ARE NOT',
       line2: 'A PROFILE.',
-      tagline: 'You are a voice.',
+      tagline: 'You are a thought.',
       cta1: 'Stop performing.',
-      cta2: 'Start speaking.',
-      btnPrimary: 'Say your first word',
+      cta2: 'Start thinking out loud.',
+      btnPrimary: 'Share your first thought',
       btnSecondary: 'Sign in',
     },
     problem: {
@@ -39,14 +39,14 @@ export const translations = {
         'No followers.',
         'No algorithm ranking your face.',
       ],
-      voice: 'Just voice.',
-      qualities: ['Tone.', 'Pause.', 'Breath.', 'Presence.'],
+      voice: 'Just thoughts.',
+      qualities: ['Words.', 'Honesty.', 'Resonance.', 'Presence.'],
     },
     whatHappens: {
       label: 'What Happens',
       headline: 'When appearance disappears, something changes.',
       cards: [
-        { title: 'Listening', body: 'Becomes deeper.' },
+        { title: 'Reading', body: 'Becomes deeper.' },
         { title: 'Silence', body: 'Becomes meaningful.' },
         { title: 'Words', body: 'Carry weight again.' },
       ],
@@ -56,9 +56,9 @@ export const translations = {
     howItWorks: {
       label: 'How It Works',
       steps: [
-        { title: 'Confirm you are 18+', sub: 'Age verification required.' },
-        { title: 'Go online', sub: 'Ready to connect.' },
-        { title: 'Speak', sub: 'One real person for 10 minutes.' },
+        { title: 'Share a thought', sub: 'Write what\'s on your mind. 280 characters. It disappears in 24 hours.' },
+        { title: 'Feel the resonance', sub: 'Someone feels the same thing. You both press Resonates — a chat opens.' },
+        { title: 'Talk. Then reveal.', sub: '48 hours. Anonymous. After 10 messages — choose.' },
       ],
       noFeed: 'No feed.',
       noAudience: 'No audience.',
@@ -86,7 +86,7 @@ export const translations = {
     closing: {
       line1: 'Remove the image.',
       line2: 'Keep the human.',
-      btnPrimary: 'Say your first word',
+      btnPrimary: 'Share your first thought',
       btnSecondary: 'Sign in',
       copyright: '© 2026 TrueTalks Inc.',
     },
@@ -109,10 +109,10 @@ export const translations = {
     hero: {
       line1: 'ТЫ НЕ',
       line2: 'ПРОФИЛЬ.',
-      tagline: 'Ты — голос.',
+      tagline: 'Ты — мысль.',
       cta1: 'Перестань играть роль.',
-      cta2: 'Начни говорить.',
-      btnPrimary: 'Скажи своё первое слово',
+      cta2: 'Начни думать вслух.',
+      btnPrimary: 'Поделись первой мыслью',
       btnSecondary: 'Войти',
     },
     problem: {
@@ -138,14 +138,14 @@ export const translations = {
         'Без подписчиков.',
         'Без алгоритмов, оценивающих твоё лицо.',
       ],
-      voice: 'Только голос.',
-      qualities: ['Тон.', 'Пауза.', 'Дыхание.', 'Присутствие.'],
+      voice: 'Только мысли.',
+      qualities: ['Слова.', 'Честность.', 'Резонанс.', 'Присутствие.'],
     },
     whatHappens: {
       label: 'Что происходит',
       headline: 'Когда внешность исчезает, кое-что меняется.',
       cards: [
-        { title: 'Слушание', body: 'Становится глубже.' },
+        { title: 'Чтение', body: 'Становится глубже.' },
         { title: 'Тишина', body: 'Обретает смысл.' },
         { title: 'Слова', body: 'Снова имеют вес.' },
       ],
@@ -155,9 +155,9 @@ export const translations = {
     howItWorks: {
       label: 'Как это работает',
       steps: [
-        { title: 'Подтверди 18+', sub: 'Необходима верификация возраста.' },
-        { title: 'Выйди онлайн', sub: 'Готов к общению.' },
-        { title: 'Говори', sub: 'Один реальный человек на 10 минут.' },
+        { title: 'Поделись мыслью', sub: 'Напиши, что у тебя на уме. 280 символов. Исчезает через 24 часа.' },
+        { title: 'Почувствуй резонанс', sub: 'Кто-то чувствует то же самое. Вы оба нажимаете «Резонирует» — открывается чат.' },
+        { title: 'Общайся. Потом открывайся.', sub: '48 часов. Анонимно. После 10 сообщений — выбери.' },
       ],
       noFeed: 'Без ленты.',
       noAudience: 'Без аудитории.',
@@ -185,7 +185,7 @@ export const translations = {
     closing: {
       line1: 'Убери изображение.',
       line2: 'Сохрани человека.',
-      btnPrimary: 'Скажи своё первое слово',
+      btnPrimary: 'Поделись первой мыслью',
       btnSecondary: 'Войти',
       copyright: '© 2026 TrueTalks Inc.',
     },
@@ -208,10 +208,10 @@ export const translations = {
     hero: {
       line1: 'SƏN PROFİL',
       line2: 'DEYİLSƏN.',
-      tagline: 'Sən bir səssən.',
+      tagline: 'Sən bir düşüncəsən.',
       cta1: 'Rol oynamağı dayandır.',
-      cta2: 'Danışmağa başla.',
-      btnPrimary: 'İlk sözünü de',
+      cta2: 'Ucadan düşünməyə başla.',
+      btnPrimary: 'İlk düşüncəni paylaş',
       btnSecondary: 'Daxil ol',
     },
     problem: {
@@ -237,14 +237,14 @@ export const translations = {
         'İzləyici yoxdur.',
         'Üzünü sıralayan alqoritm yoxdur.',
       ],
-      voice: 'Yalnız səs.',
-      qualities: ['Ton.', 'Fasilə.', 'Nəfəs.', 'Varlıq.'],
+      voice: 'Yalnız düşüncələr.',
+      qualities: ['Sözlər.', 'Dürüstlük.', 'Rezonans.', 'Varlıq.'],
     },
     whatHappens: {
       label: 'Nə baş verir',
       headline: 'Görünüş yox olduqda, bir şey dəyişir.',
       cards: [
-        { title: 'Dinləmə', body: 'Daha dərin olur.' },
+        { title: 'Oxuma', body: 'Daha dərin olur.' },
         { title: 'Sükut', body: 'Məna kəsb edir.' },
         { title: 'Sözlər', body: 'Yenidən ağırlıq daşıyır.' },
       ],
@@ -254,9 +254,9 @@ export const translations = {
     howItWorks: {
       label: 'Necə işləyir',
       steps: [
-        { title: '18+ olduğunu təsdiqlə', sub: 'Yaş doğrulaması tələb olunur.' },
-        { title: 'Onlayn ol', sub: 'Əlaqəyə hazırsın.' },
-        { title: 'Danış', sub: 'Bir real insanla 10 dəqiqə.' },
+        { title: 'Düşüncəni paylaş', sub: 'Ağlındakını yaz. 280 simvol. 24 saatdan sonra yox olur.' },
+        { title: 'Rezonansu hiss et', sub: 'Biri eyni şeyi hiss edir. İkiniz də «Rezonans» düyməsinə basırsınız — söhbət açılır.' },
+        { title: 'Danış. Sonra aç.', sub: '48 saat. Anonim. 10 mesajdan sonra — seç.' },
       ],
       noFeed: 'Lent yox.',
       noAudience: 'Auditoriya yox.',
@@ -284,7 +284,7 @@ export const translations = {
     closing: {
       line1: 'Şəkli sil.',
       line2: 'İnsanı saxla.',
-      btnPrimary: 'İlk sözünü de',
+      btnPrimary: 'İlk düşüncəni paylaş',
       btnSecondary: 'Daxil ol',
       copyright: '© 2026 TrueTalks Inc.',
     },
